@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_round"
+    tools:context="com.example.saumya.serviceexample.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media player"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:textColor="#be85dc"
+         android:textStyle="bold"/>
+    <Button
+        android:id="@+id/bn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#5c6c57"
+        android:textColor="#fff"
+        android:padding="20sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Start Music"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/bn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#d76d65"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Stop Music"
+        android:layout_marginTop="15dp" />
+</LinearLayout>
